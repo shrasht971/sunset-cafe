@@ -15,6 +15,8 @@ function App() {
     <Router>
      {/* <Landingpage /> */}
      <Navbar />
+
+     
      <Routes>
       <Route path="/" element={<Landingpage />} />
       <Route path='menu' element={<Menu />} />
