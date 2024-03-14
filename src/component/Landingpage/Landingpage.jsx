@@ -159,8 +159,8 @@ const Landingpage = () => {
       </div>
       {/* Deals and offers section */}
       <div>
-        <div className="bg-deal  lg:w-full lg:h-fit pl-20 pr-20 pb-20">
-          <div className="text-3xl font-bold uppercase mb-8 p-4">
+        <div className="bg-deal  lg:w-full lg:h-fit lg:pl-20 lg:pr-20 pl-6 pr-6 pb-20">
+          <div className="lg:text-3xl font-bold uppercase  mb-8 lg:p-4">
             {" "}
             Deals and Offers
           </div>
@@ -172,18 +172,18 @@ const Landingpage = () => {
                   <img
                     src={d.img}
                     alt=""
-                    className=" h-32 lg:h-60 lg:w-80 ml-80 lg:mt-2 rounded-xl "
+                    className="h-28 w-28 lg:h-60 lg:w-80 lg:ml-80  lg:mt-2 rounded-xl "
                   />
                 </div>
                 <div className="flex flex-col lg:mt-[-250px] ">
-                  <p className="lg:text-2xl  text-black lg:p-4 lg:pb-4">
+                  <p className="lg:text-2xl  text-black pl-2 lg:p-4 lg:pb-4">
                     {d.flat}
                   </p>
-                  <p className="lg:text-6xl font-bold text-green-600 lg:pl-4 lg:w-1/4">
+                  <p className="lg:text-6xl font-bold text-green-600 pl-2 lg:pl-4 lg:w-1/4">
                     {d.off}
                   </p>
-                  <p className="lg:text-xl font-bold lg:pl-4">{d.order}</p>
-                  <p className="border-black border-2 border-t-gray-400 border-t-4 rounded-xl bg-dealCode text-xl w-fit px-2 py-2 m-2">
+                  <p className="lg:text-xl text-sm font-bold pl-2 lg:pl-4">{d.order}</p>
+                  <p className="border-black border-2 border-t-gray-400 border-t-4 rounded-xl bg-dealCode text-xs lg:text-xl w-fit px-1 py-1 lg:px-2 lg:py-2 m-2">
                     Use Code <span className="text-gray-500">{d.code}</span>
                   </p>
                 </div>
@@ -193,21 +193,21 @@ const Landingpage = () => {
         </div>
       </div>
       {/* Reservation section */}
-      <div className="bg-sky-950 flex h-fit w-full">
+      <div className="bg-sky-950  min-[320px]:flex-col p-2  max-[600px]:flex-col flex md:flex-col sm:flex-col h-fit w-full">
         <div>
-          <img src={Reservations} className="lg:h-[600px] lg:w-full lg:m-14 " />
+          <img src={Reservations} className="h-[600px] w-full md:h-80 sm:h-80  min-[319px]:h-80 p-2  max-[400px]:h-80 lg:m-14 " />
         </div>
-        <div className="w-full h-full lg:pl-28 lg:pt-11">
-          <p className="text-4xl font-extrabold text-yellow-400">Reservation</p>
-          <p className="text-3xl font-bold py-4 tracking-widest text-white">
+        <div className="w-full h-full  lg:pl-28 lg:pt-11">
+          <p className="lg:text-4xl font-extrabold text-yellow-400">Reservation</p>
+          <p className="lg:text-3xl font-bold py-4 px-2 tracking-widest text-white">
             BOOK A TABLE ONLINE
           </p>
-          <div className="flex justify-between w-1/2 pr-4">
+          <div className="lg:flex justify-between lg:w-1/2 lg:pr-4">
             <div className="m-4">
               <input
                 type="name"
                 placeholder="Your name"
-                className="p-4 lg:pr-36 "
+                className="lg:p-4 lg:pr-36 "
               />
             </div>
             <div className=" m-4">

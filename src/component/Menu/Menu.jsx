@@ -1,5 +1,5 @@
-import React from "react";
-import Slider from "react-slick";
+// import React from "react";
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import BestOffer1 from "../../assets/image/bestOffer1.jpeg";
@@ -14,56 +14,60 @@ import Salads from "../../assets/image/salads.jpeg";
 import Pastes from "../../assets/image/pastes.jpeg";
 import Combo from "../../assets/image/combo.png";
 import { IoGiftOutline } from "react-icons/io5";
+import Slider from "react-slick";
 
+
+  
+const data = [
+  {
+    img: BestOffer1,
+    special1: "SPECIAL PROMO",
+    buco: "BURGER COMBO",
+    order1: "ORDER NOW",
+    buyget: "BUY GET",
+    one:"1",
+  },
+  {
+    img: BestOffer2,
+    special2: "DELICIOUS COMBO",
+    combo: ".PEPSI .BURGER .FRENCH FRIES",
+  },
+  {
+    img: BestOffer3,
+  },
+  {
+    img: BestOffer4,
+  },
+  {
+    img: BestOffer1,
+    special: "SPECIAL PROMO",
+    buco: "BURGER COMBO",
+    order1: "ORDER NOW",
+    buyget: "BUY GET",
+  },
+  {
+    img: BestOffer2,
+    special1: "DELICIOUS COMBO",
+    combo: ".PEPSI .BURGER .FRENCH FRIES",
+  },
+];
 const Menu = () => {
+
+
+
   var settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1,
   };
-
-
-
   
-  
-  const data = [
-    {
-      img: BestOffer1,
-      special: "SPECIAL PROMO",
-      buco: "BURGER COMBO",
-      order1: "ORDER NOW",
-      buyget: "BUY GET",
-    },
-    {
-      img: BestOffer2,
-      special1: "DELICIOUS COMBO",
-      combo: ".PEPSI .BURGER .FRENCH FRIES",
-    },
-    {
-      img: BestOffer3,
-    },
-    {
-      img: BestOffer4,
-    },
-    {
-      img: BestOffer1,
-      special: "SPECIAL PROMO",
-      buco: "BURGER COMBO",
-      order1: "ORDER NOW",
-      buyget: "BUY GET",
-    },
-    {
-      img: BestOffer2,
-      special1: "DELICIOUS COMBO",
-      combo: ".PEPSI .BURGER .FRENCH FRIES",
-    },
-  ];
+
   return (
     <div className="h-[2500px]  bg-menu-bgcolor">
-      <div className="mt-36 absolute">
-        <div className="lg:ml-[550px] flex ">
+      
+        <div className="lg:ml-[550px] flex relative top-52">
           <div className="bg-welcome px-1 w-32 h-px border-0  mt-4"></div>
           <div className="flex flex-col">
             <div className="text-welcome uppercase text-4xl font-light tracking-widest ml-2 mr-2 ">
@@ -76,7 +80,7 @@ const Menu = () => {
           <div className="bg-welcome px-2 w-32 h-px border-0 mt-4"></div>
         </div>
         {/* DRINKS CATEGORIES */}
-        <div className="flex justify-between align-middle pl-20 mt-11 ">
+        <div className="flex justify-between align-middle pl-20 mt-11 mt-60">
           <div className="mr-52 ml-20 ">
             <img src={HotDrink} className="w-60 h-60 rounded-full" />
             <div className="uppercase bg-welcome text-white font-bold text-xl p-2 rounded-3xl mt-4 text-center">
@@ -298,6 +302,8 @@ const Menu = () => {
             EXPLORE
           </button>
         </div>
+        <div className="flex w-full flex-col">
+
         <div className="flex">
           <div className="border-t-2 ml-2 border-welcome mt-20 lg:w-[600px]"></div>
           <div className="ml-10 mr-16 text-white text-3xl mt-16 tracking-widest flex ">
@@ -307,32 +313,31 @@ const Menu = () => {
             </span>
           </div>
           <div className="border-t-2 ml-2 border-welcome mt-20 lg:w-[550px]"></div>
-        </div>
-        <div className="w-40 flex absolute h-40 ">
-          <div className=" flex pl-2 pr-2 pb-20 ">
-          <Slider {...settings}>
-      <div>
-        <h3>1</h3>
-      </div>
-      <div>
-        <h3>2</h3>
-      </div>
-      <div>
-        <h3>3</h3>
-      </div>
-      <div>
-        <h3>4</h3>
-      </div>
-      <div>
-        <h3>5</h3>
-      </div>
-      <div>
-        <h3>6</h3>
-      </div>
-    </Slider>
           </div>
+<div className=" p-12">
+<Slider {...settings}>
+{data.map((d) => (
+       <div key={d.img} className="bg-white h-[302px] lg:h-[450px]  rounded-xl">
+            <img src={d.img} alt="" className=" h-32 lg:h-[450px] w-full rounded-xl "/>
+            <p className="text-white font-bold mt-[-450px] pl-40 p-2">{d.special1}</p>
+            <p className="text-yellow-400  font-bold  text-xl pl-36 ">{d.buco}</p>
+            <div className="bg-gray-800  border-2">
+            <p className="text-yellow-200 font-extrabold  bg-gray-800 rounded-full w-10 h-10  ml-10 mt-28">{d.buyget}<div className="text-white text-3xl pl-10 mt-[-40px]">{d.one}</div></p>
+            <p className="text-yellow-400">{d.special2}</p>
+            </div>
+            <div className="ml-80 mt-[-40px] bg-white text-white text-xl font-bold ">
+            <p className="bg-black">{d.order1}</p>
+           
+            </div>
+            
         </div>
-      </div>
+       
+       ))}
+    </Slider>
+    </div>      
+        </div>
+     
+    
     </div>
   );
 };

@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     <div className="absolute top-0 z-40 w-full ">
-    <div className='flex justify-between items-center h-24 sans   text-3xl max-w-[1536px] mx-auto px-4 text-white bg-transparent'>
+    <div className='flex justify-between items-center h-24 sans lg:text-3xl lg:w-[1536px] mx-auto px-4 text-white bg-transparent'>
       {/* Logo */}
      <div> <img src={logo} className="object-cover h-16 w-38 object-left  py-0 flex-1"/></div>
 
