@@ -198,8 +198,8 @@ const Landingpage = () => {
           <img src={Reservations} className="h-[600px] w-full md:h-80 sm:h-80  min-[319px]:h-80 p-2  max-[400px]:h-80 lg:m-14 " />
         </div>
         <div className="w-full h-full  lg:pl-28 lg:pt-11">
-          <p className="lg:text-4xl font-extrabold text-yellow-400">Reservation</p>
-          <p className="lg:text-3xl font-bold py-4 px-2 tracking-widest text-white">
+          <p className="lg:text-4xl ml-14 text-2xl font-extrabold text-yellow-400">Reservation</p>
+          <p className="lg:text-3xl ml-6 text-lg font-semibold lg:font-bold py-4 px-2 tracking-widest text-white">
             BOOK A TABLE ONLINE
           </p>
           <div className="lg:flex justify-between lg:w-1/2 lg:pr-4">
@@ -207,30 +207,30 @@ const Landingpage = () => {
               <input
                 type="name"
                 placeholder="Your name"
-                className="lg:p-4 lg:pr-36 "
+                className="lg:p-4 lg:pr-36 p-1 pr-16"
               />
             </div>
             <div className=" m-4">
               <input
                 type="email"
                 placeholder="Your Email "
-                className="p-4 lg:pr-44 "
+                className="lg:p-4 lg:pr-44 p-1 pr-16"
               />
             </div>
           </div>
-          <div className="flex justify-between w-1/2 pr-4">
+          <div className="lg:flex justify-between w-1/2 pr-4">
             <div className="m-4">
               <input
                 type="date"
                 placeholder="Date&Time"
-                className="p-4 lg:pr-48 "
+                className="lg:p-4 lg:pr-48 pr-[118px] p-1"
               />
             </div>
             <div className=" m-4">
               <input
                 type="people"
                 placeholder="No. of people "
-                className="p-4 lg:pr-44 "
+                className="lg:p-4 lg:pr-44 p-1 pr-16 "
               />
             </div>
           </div>
@@ -238,11 +238,11 @@ const Landingpage = () => {
             <input
               type="request"
               placeholder="Special Request"
-              className="pb-32 p-4 pr-[545px]"
+              className="lg:pb-32 lg:p-4 pb-12 p-1 lg:pr-[545px] pr-16"
             />
           </div>
           <div className="lg:w-full">
-            <button className="text-white  lg:text-3xl lg:px-[295px]  bg-book-now lg:py-5 font-bold text-center  tracking-wider hover:bg-black  lg:m-4">
+            <button className="text-white ml-4 px-20  py-2 text-lg lg:text-3xl lg:px-[295px]  bg-book-now lg:py-5 font-bold text-center  tracking-wider hover:bg-black  lg:m-4">
               Book Now
             </button>
           </div>

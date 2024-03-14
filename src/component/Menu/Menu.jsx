@@ -31,6 +31,9 @@ const data = [
     img: BestOffer2,
     special2: "DELICIOUS COMBO",
     combo: ".PEPSI .BURGER .FRENCH FRIES",
+    order2:"OREDR NOW",
+    off:"UP TO",
+    per:"50%"
   },
   {
     img: BestOffer3,
@@ -323,13 +326,13 @@ const Menu = () => {
             <p className="text-yellow-400  font-bold  text-xl pl-36 ">{d.buco}</p>
             <div className="bg-gray-800  border-2">
             <p className="text-yellow-200 font-extrabold  bg-gray-800 rounded-full w-10 h-10  ml-10 mt-28">{d.buyget}<div className="text-white text-3xl pl-10 mt-[-40px]">{d.one}</div></p>
-            <p className="text-yellow-400">{d.special2}</p>
             </div>
             <div className="ml-80 mt-[-40px] bg-white text-white text-xl font-bold ">
             <p className="bg-black">{d.order1}</p>
            
             </div>
-            
+            <p className="text-yellow-600 font-bold text-xl mt-[-100px] pl-2">{d.special2}</p>
+            <p className="text-lg text-amber-600 pl-20">{d.combo}</p>
         </div>
        
        ))}
