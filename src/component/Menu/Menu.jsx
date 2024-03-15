@@ -2,6 +2,7 @@
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import {Link} from "react-router-dom";
 import BestOffer1 from "../../assets/image/bestOffer1.jpeg";
 import BestOffer2 from "../../assets/image/bestOffer2.jpeg";
 import BestOffer3 from "../../assets/image/bestOffer3.jpeg";
@@ -68,9 +69,9 @@ const Menu = () => {
   
 
   return (
-    <div className="h-[2500px]  bg-menu-bgcolor">
+    <div className="h-[2500px] bg-menu-bgcolor">
       
-        <div className="lg:ml-[550px] flex relative top-52">
+        <div className="lg:ml-[550px] w-fit flex relative top-52">
           <div className="bg-welcome px-1 w-32 h-px border-0  mt-4"></div>
           <div className="flex flex-col">
             <div className="text-welcome uppercase text-4xl font-light tracking-widest ml-2 mr-2 ">
@@ -83,7 +84,7 @@ const Menu = () => {
           <div className="bg-welcome px-2 w-32 h-px border-0 mt-4"></div>
         </div>
         {/* DRINKS CATEGORIES */}
-        <div className="flex justify-between align-middle pl-20 mt-11 mt-60">
+        <div className="flex justify-between align-middle pl-20 mt-60">
           <div className="mr-52 ml-20 ">
             <img src={HotDrink} className="w-60 h-60 rounded-full" />
             <div className="uppercase bg-welcome text-white font-bold text-xl p-2 rounded-3xl mt-4 text-center">
@@ -300,11 +301,13 @@ const Menu = () => {
             <p className="text-center text-white text-xl mt-2">value combo</p>
           </div>
         </div>
+        <Link to="/menu1">
         <div className=" mt-20 flex justify-center text-center">
           <button className=" text-white text-3xl bg-explore rounded-3xl font-bold tracking-widest px-8 py-4 w-fit">
             EXPLORE
-          </button>
+          </button> 
         </div>
+        </Link>
         <div className="flex w-full flex-col">
 
         <div className="flex">
@@ -324,8 +327,8 @@ const Menu = () => {
             <img src={d.img} alt="" className=" h-32 lg:h-[450px] w-full rounded-xl "/>
             <p className="text-white font-bold mt-[-450px] pl-40 p-2">{d.special1}</p>
             <p className="text-yellow-400  font-bold  text-xl pl-36 ">{d.buco}</p>
-            <div className="bg-gray-800  border-2">
-            <p className="text-yellow-200 font-extrabold  bg-gray-800 rounded-full w-10 h-10  ml-10 mt-28">{d.buyget}<div className="text-white text-3xl pl-10 mt-[-40px]">{d.one}</div></p>
+            <div className="bg-gray-800  border-2 inset-0">
+            <p className="text-yellow-200 font-extrabold bg-gray-800 rounded-full w-10 h-10  ml-10 mt-28">{d.buyget}<div className="text-white text-3xl pl-10 mt-[-40px]">{d.one}</div></p>
             </div>
             <div className="ml-80 mt-[-40px] bg-white text-white text-xl font-bold ">
             <p className="bg-black">{d.order1}</p>
@@ -333,7 +336,7 @@ const Menu = () => {
             </div>
             <p className="text-yellow-600 font-bold text-xl mt-[-100px] pl-2">{d.special2}</p>
             <p className="text-lg text-amber-600 pl-20">{d.combo}</p>
-        </div>
+            </div>
        
        ))}
     </Slider>
