@@ -69,7 +69,7 @@ const Menu = () => {
   
 
   return (
-    <div className="h-[2500px] bg-menu-bgcolor">
+    <div className="h-[2500px] bg-menu-bgcolor ">
       
         <div className="lg:ml-[550px] w-fit flex relative top-52">
           <div className="bg-welcome px-1 w-32 h-px border-0  mt-4"></div>
