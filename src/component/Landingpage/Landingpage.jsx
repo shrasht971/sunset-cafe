@@ -193,9 +193,9 @@ const Landingpage = () => {
         </div>
       </div>
       {/* Reservation section */}
-      <div className="bg-sky-950  min-[320px]:flex-col p-2  max-[600px]:flex-col lg:flex md:flex-col sm:flex-col h-fit w-full">
+      <div className={`bg-sky-950  h-fit w-full res`} >
         <div>
-          <img src={Reservations} className="h-[600px] w-full md:h-80 sm:h-80  min-[319px]:h-80 p-2  max-[400px]:h-80 lg:m-14 " />
+          <img src={Reservations} className="h-[600px] w-full" />
         </div>
         <div className="w-full h-full  lg:pl-28 lg:pt-11">
           <p className="lg:text-4xl ml-14 text-2xl font-extrabold text-yellow-400">Reservation</p>
@@ -242,47 +242,47 @@ const Landingpage = () => {
             />
           </div>
           <div className="lg:w-full">
-            <button className="text-white ml-4 px-20  py-2 text-lg lg:text-3xl lg:px-[295px]  bg-book-now lg:py-5 font-bold text-center  tracking-wider hover:bg-black  lg:m-4">
+            <button className="text-white ml-4 px-20  py-2 text-lg lg:text-3xl mb-4 lg:px-[295px]  bg-book-now lg:py-5 font-bold text-center  tracking-wider hover:bg-black  lg:m-4">
               Book Now
             </button>
           </div>
         </div>
       </div>
       {/* Subscribes section */}
-      <div className="bg-cover bg-center bg-subs lg:h-[700px] lg:w-full bg-[url(./assets/image/sub.jpeg)] ">
-        <div className="bg-subs lg:h-[520px] w-full">
-          <div className="text-center w-3/4 pl-72 p-6 ">
-            <p className="lg:text-5xl  text-white font-sans font-semibold pb-4">
+      <div className="bg-cover bg-center bg-subs lg:h-[700px] h-[400px]  lg:w-full bg-[url(./assets/image/sub.jpeg)] ">
+        <div className="bg-subs lg:h-[520px] h-64 mb-40  w-full">
+          <div className="text-center lg:w-3/4 lg:pl-72 lg:p-6 ">
+            <p className="lg:text-5xl text-sm pt-6 text-white font-sans font-semibold ">
               Motivation being our hard work
             </p>
-            <Slider {...settings1} className=" flex">
+            <Slider {...settings1} className="lg:flex ml-8 mr-8">
               {data1.map((d) => (
                 <div className="bg-feedback lg:h-[200px] rounded-xl  mt-10  ">
-                  <div className="text-white text-xl p-4 mt-10">
+                  <div className="text-white lg:text-xl text-xs lg:p-4 lg:mt-10 m-2">
                     <p>"{d.feedback}"</p>
                   </div>
                 </div>
               ))}
             </Slider>
           </div>
-          <div className="lg:text-4xl font-extrabold lg:pl-20 lg:pr-[980px] lg:mt-[160px]">
-            <p className="text-white">
+          <div className="lg:text-4xl  font-extrabold lg:pl-20 lg:pr-[980px] lg:mt-[160px]">
+            <p className="text-white text-lg pl-10 pr-2 pt-10 ">
               Subscribe To Newsletter{" "}
-              <span className="text-sub-color">and Get -20% off</span>
+              <span className="text-sub-color ">and Get -20% off</span>
             </p>
-            <p className="text-sm text-white">
+            <p className=" text-xs pl-10 text-white">
               9 Your Gateway to Serenity, Culinary Delights, and Unforgettable
               Moments.
             </p>
-            <div className="flex bg-white rounded-xl lg:w-fit text-sm ">
+            <div className="flex bg-white rounded-xl lg:w-fit text-xs  mx-10 my-2">
               <input
                 type="address"
                 name="address"
                 id="address"
                 placeholder="Enter the Email Address..."
-                className="w-full border-none bg-transparent pl-6 pr-20 py-1 text-black text-sx  outline-none"
+                className="w-full border-none bg-transparent lg:pl-6 pl-2 py-1 lg:pr-20 lg:py-1 text-black text-xs  outline-none"
               />
-              <button className="rounded-r-xl pl-6 pr-8 py-2 text-white uppercase bg-sub-color ">
+              <button className="rounded-r-xl lg:pl-6  px-2 lg:pr-8 lg:py-2 text-white text-xs uppercase bg-sub-color ">
                 Subscribe
               </button>
             </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import {Link} from "react-router-dom";
 import Menu1first from "../../assets/image/menu1first.png";
 import Burger from "../../assets/image/burger.jpeg";
 import Chinese from "../../assets/image/chinese.jpeg";
@@ -10,6 +11,7 @@ import Desserts from "../../assets/image/deserts.jpeg";
 import MainCoure from "../../assets/image/main.jpeg";
 import Combo from "../../assets/image/combo.png";
 import Beverage from "../../assets/image/bestOffer4.jpeg";
+import { MdKeyboardArrowDown } from "react-icons/md";
 
 const Menu1 = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,14 +34,18 @@ const Menu1 = () => {
         </div>
         <div className="w-full">
           <div className="flex justify-evenlyely m-2  ">
+          <Link to="/bsmenu">
           <div className=" mx-28 my-16 ">
             <img src={Burger} className="w-52 h-52 rounded-full ml-8 " />
             <p className="text-2xl text-white font-semibold text-center mt-2">BURGER & SANDWICHES</p>
           </div>  
+          </Link>
+          <Link to="/chiense">
           <div className=" mx-36 my-16">
             <img src={Chinese} className="w-52 h-52 rounded-full" />
             <p className="text-2xl text-white font-semibold text-center  mt-2">CHINESE CUSINE</p>
           </div>
+          </Link>
           <div className="mx-28 my-16">
             <img
               src={Starters}
@@ -92,12 +98,12 @@ const Menu1 = () => {
           </div>
           </div>
           )}
-          <div className="flex justify-center">
+          <div >
           <button
-              className="text-black text-xs px-4 py-2 lg:text-lg rounded-xl border-b lg:w-52 lg:h-18  lg:px-2 lg:py-4 text-center font-bold uppercase tracking-wider hover:bg-red-900 lg:mb-8 lg:ml-11"
+              className="text-white  lg:text-3xl  flex ml-[690px] font-bold uppercase tracking-wider hover:text-black  "
               onClick={toggleReadMoreLess}
             >
-              {isOpen ? "Read Less" : "See More"}
+            <span className="text-3xl text-black rounded-full bg-stone-700 border-black border-2 border-r-1 w-8 h-8 mx-2 my-1"> <MdKeyboardArrowDown /></span> {isOpen ? "More Less" : "See More"}
             </button>
             </div>
         </div>
