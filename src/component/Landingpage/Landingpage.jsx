@@ -195,7 +195,7 @@ const Landingpage = () => {
       {/* Reservation section */}
       <div className={`bg-sky-950  h-fit w-full res`} >
         <div>
-          <img src={Reservations} className="h-[600px] w-full" />
+          <img src={Reservations} className="lg:h-[600px] w-full" />
         </div>
         <div className="w-full h-full  lg:pl-28 lg:pt-11">
           <p className="lg:text-4xl ml-14 text-2xl font-extrabold text-yellow-400">Reservation</p>
