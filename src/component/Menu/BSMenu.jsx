@@ -22,8 +22,12 @@ const BSMenu = () => {
         </div>
         <div className="flex text-white text-3xl font-semibold mt-4 mx-2  tracking-widest w-full">
           <p className="px-10 hover:text-welcome">BURGER & SANDWICHES</p>
+          <Link to='/chiense'>
           <p className="px-10">CHINESE CUSINE</p>
+          </Link>
+          <Link to='/starters'>
           <p className="px-10">STARTERS</p>
+          </Link>
           <p className="px-10">SIDES</p>
           <p className="px-10">SALADS</p>
           <Link to="/">

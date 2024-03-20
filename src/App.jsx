@@ -8,6 +8,7 @@ import Menu from './component/Menu/Menu'
 import Menu1 from './component/Menu/Menu1'
 import BSMenu from './component/Menu/BSMenu'
 import Chiense from './component/Menu/Chiense'
+import Starters from './component/Menu/Starters'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Outlet } from 'react-router-dom'
 import { useMediaQuery } from "react-responsive";
@@ -30,6 +31,7 @@ function App() {
       <Route path='menu1' element={<Menu1 />} />
       <Route path='bsmenu' element={<BSMenu />}  />
       <Route path='chiense' element={<Chiense />} />
+      <Route path='starters' element={<Starters />} />
     </Routes>
     
     {isDesktopOrLaptop && <Footer />}
