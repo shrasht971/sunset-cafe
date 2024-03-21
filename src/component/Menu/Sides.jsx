@@ -7,7 +7,7 @@ import { IoArrowDownCircleOutline } from "react-icons/io5"
 
 const Sides = () => {
   return (
-    <div className='h-[1600px] bg-menu-bgcolor'>
+    <div className='h-[1600px] bg-menu1'>
       <div className='w-full relative top-32'>
       <div className='container w-full'>
         <img src={Sides1} className='h-[500px] w-full px-2 object-cover bg-no-repeat' />

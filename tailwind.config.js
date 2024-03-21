@@ -2,7 +2,27 @@
 export default {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
+    screens: {
+      'sm': '425px',
+      // => @media (min-width: 425px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    },
     extend: {
+      screens: {
+        'xs': {'min':'320','max':'425'},
+        // => @media (min-width: 992px) { ... }
+      },
       colors:{
         "my-color":"rgba(40,27,16,0.8)",
         "welcome":"rgba(209, 110, 67, 1)",
@@ -20,6 +40,7 @@ export default {
         "lines":"rgba(60, 45, 37, 1)",
         "explore":"rgba(203, 95, 95, 1)",
         "menu1":"rgba(37, 35, 35, 1)",
+        
         
         
             },

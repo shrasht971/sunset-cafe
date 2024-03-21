@@ -59,6 +59,7 @@ const Menu1 = () => {
               </p>
             </div>
           </Link>
+          <Link to='/starters'>
           <div className="lg:mx-28 ml-8 lg:my-16 ">
             <img
               src={Starters}
@@ -68,7 +69,8 @@ const Menu1 = () => {
               STARTERS
             </p>
           </div>
-
+          </Link>
+          <Link to='/sides'>
           <div className=" lg:mx-28 lg:my-16 ">
             <img
               src={Sides}
@@ -78,6 +80,8 @@ const Menu1 = () => {
               SIDES
             </p>
           </div>
+          </Link>
+          <Link to='/salads'>
           <div className=" lg:mx-28 ml-8 lg:my-16 ">
             <img
               src={Salads}
@@ -87,6 +91,8 @@ const Menu1 = () => {
               SALADS
             </p>
           </div>
+          </Link>
+          <Link to='/desserts'>
           <div className="lg:mx-28 lg:my-16">
             <img
               src={Desserts}
@@ -96,19 +102,23 @@ const Menu1 = () => {
               DESSERTS / ICE-CREAM
             </p>
           </div>
-
+          </Link>
+          <Link to='/mainCourse'>
           <div className="lg:mx-28 ml-8 lg:my-16">
             <img src={MainCoure} className="lg:w-52 w-20 lg:h-52 h-20 rounded-full " />
             <p className="lg:text-2xl text-xs text-white font-semibold text-center  mt-2">
               MAIN COURSE
             </p>
           </div>
+          </Link>
+          <Link to='/vaalueCombo'>
           <div className="lg:mx-28 lg:my-16 ">
             <img src={Combo} className="lg:w-52 w-20 lg:h-52 h-20 rounded-full" />
             <p className="lg:text-2xl text-xs  text-white font-semibold pr-8 text-center  mt-2">
               value combo
             </p>
           </div>
+          </Link>
           <div className="lg:mx-28 ml-8 lg:my-16">
             <img src={Beverage} className="lg:w-52  w-20 lg:h-52 h-20 rounded-full " />
             <p className="lg:text-2xl text-xs text-white font-semibold text-center  mt-2">

@@ -8,7 +8,7 @@ import { IoArrowDownCircleOutline } from "react-icons/io5"
 
 const Starters = () => {
   return (
-    <div className='h-[2500px] bg-menu-bgcolor'>
+    <div className='h-[2500px] bg-menu1'>
       <div className='w-full relative top-32'>
       <div className='container w-full'>
       <img src={Starter} className='h-[500px] w-full px-2 object-cover bg-no-repeat' />
