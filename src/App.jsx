@@ -9,6 +9,11 @@ import Menu1 from './component/Menu/Menu1'
 import BSMenu from './component/Menu/BSMenu'
 import Chiense from './component/Menu/Chiense'
 import Starters from './component/Menu/Starters'
+import Sides from './component/Menu/Sides'
+import Salads from './component/Menu/Salads'
+import Desserts from './component/Menu/Desserts'
+import MainCourse from './component/Menu/MainCourse'
+import ValueCombo from './component/Menu/ValueCombo'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Outlet } from 'react-router-dom'
 import { useMediaQuery } from "react-responsive";
@@ -32,6 +37,11 @@ function App() {
       <Route path='bsmenu' element={<BSMenu />}  />
       <Route path='chiense' element={<Chiense />} />
       <Route path='starters' element={<Starters />} />
+      <Route path='sides' element={<Sides />} />
+      <Route path='salads' element={<Salads />} />
+      <Route path='desserts' element={<Desserts />} />
+      <Route path='mainCourse' element={<MainCourse />}/>
+      <Route path='valueCombo' element={<ValueCombo />}/>
     </Routes>
     
     {isDesktopOrLaptop && <Footer />}

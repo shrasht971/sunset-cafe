@@ -30,7 +30,7 @@ const BSMenu = () => {
           </Link>
           <p className="px-10">SIDES</p>
           <p className="px-10">SALADS</p>
-          <Link to="/">
+          <Link to="/chiense">
             <p className="py-1 text-3xl">
               <FaArrowRight />
             </p>

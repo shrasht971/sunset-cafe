@@ -36,7 +36,7 @@ const Menu1 = () => {
           <div className="bg-white lg:mr-6 lg:w-[535px] w-14 h-px border-0  mt-10"></div>
         </div>
   
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-2 lg:grid-cols-3 md:grid-cols-1 gap-8">
           <Link to="/bsmenu">
             <div className=" lg:mx-28 ml-8  lg:my-16 ">
               <img

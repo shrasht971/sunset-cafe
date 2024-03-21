@@ -27,14 +27,14 @@ const Chiense = () => {
     </Link> 
           <p className="px-10">SIDES</p>
           <p className="px-10">SALADS</p>
-          <Link to="/">
+          <Link to="/starters">
             <p className="py-1 text-3xl">
               <FaArrowRight />
             </p>
           </Link>
     </div>
     <div className='flex w-full mt-14 pl-10'>
-    <div className="flex flex-col w-1/2 pl-10  border-yellow-500  border-r-2">
+    <div className="flex lg:flex-col w-1/2 pl-10  border-yellow-500  border-r-2">
        <p className='text-3xl font-semibold text-white'>APPETIZERS</p>
        <div className="flex mt-16">
             <div className="text-white text-xl font-semibold ml-4 w-96 tracking-widest" >
