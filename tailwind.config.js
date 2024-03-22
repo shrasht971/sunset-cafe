@@ -20,7 +20,7 @@ export default {
     },
     extend: {
       screens: {
-        'xs': {'min':'320','max':'425'},
+        'xs': {'min':'320px','max':'425px'},
         // => @media (min-width: 992px) { ... }
       },
       colors:{
@@ -40,9 +40,7 @@ export default {
         "lines":"rgba(60, 45, 37, 1)",
         "explore":"rgba(203, 95, 95, 1)",
         "menu1":"rgba(37, 35, 35, 1)",
-        
-        
-        
+        "shadow":"rgba(0, 0, 0, 0.25)"
             },
             fontFamily:{
               "sans": ['ui-sans-serif', 'system-ui','Josefin Sans'],
