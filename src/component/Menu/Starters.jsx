@@ -8,25 +8,25 @@ import { IoArrowDownCircleOutline } from "react-icons/io5"
 
 const Starters = () => {
   return (
-    <div className='h-[2500px] bg-menu1'>
-      <div className='w-full relative top-32'>
+    <div className='h-fit pb-40 bg-menu1'>
+      <div className=' relative top-32'>
       <div className='container w-full'>
-      <img src={Starter} className='h-[500px] w-full px-2 object-cover bg-no-repeat' />
+      <img src={Starter} className='lg:h-[60vh] w-full h-[40vh] px-2 object-cover bg-no-repeat' />
       </div> 
-        <div className="flex text-white text-3xl font-semibold mt-4 mx-1  tracking-widest w-full">
+        <div className="flex text-white lg:text-3xl text-xs font-semibold mt-4 mx-1  tracking-widest w-full">
         <Link to='/chiense'>
-            <p className="py-1 text-3xl">
+            <p className="py-1 lg:text-3xl">
               <FaArrowLeft />
             </p>
         </Link>
-          <p className="px-5">STARTERS</p>
-          <p className="px-5">SIDES</p>
-          <p className="px-5">SALADS</p>
-          <p className="px-5">DESSERTS/ICE-CREAM</p>
-          <p className="px-5">MAIN COURSE</p>
-          <p className="px-5">VALUE COMBO</p>
+          <p className="px-1 lg:px-5">STARTERS</p>
+          <p className="px-1 lg:px-5">SIDES</p>
+          <p className="px-1 lg:px-5">SALADS</p>
+          <p className="px-1 lg:px-5">DESSERTS/ICE-CREAM</p>
+          <p className="px-1 lg:px-5">MAIN COURSE</p>
+          <p className="px-1 lg:px-5">VALUE COMBO</p>
           <Link to="/sides">
-            <p className="py-1  text-3xl">
+            <p className="py-1 lg:text-3xl">
               <FaArrowRight />
             </p>
           </Link>

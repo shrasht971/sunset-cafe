@@ -105,7 +105,7 @@ const Landingpage = () => {
 
   return (
     <>
-      <div className="bg-[url(./assets/image/section1bg.jpg)] bg-cover bg-center h-[700px] lg:h-svh relative">
+      <div className="bg-[url(./assets/image/section1bg.jpg)] bg-cover bg-center xs:h-[110vh] sm:h-[110vh] w-full lg:h-svh relative">
       <div className='absolute w-full h-full top-0 bottom-0 right-0 left-0 z-20 bg-my-color'>
       
         {/* Welcome section */}

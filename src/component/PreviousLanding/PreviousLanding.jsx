@@ -76,15 +76,15 @@ const PreviousLanding = () => {
     <>
      <div className='lg:flex  flex-row w-full align-middle h-fit '>
      {/* wel left */}
-     <div className='lg:flex flex-col  justify-center lg:items-start lg:w-2/4  ' >
+     <div className='lg:flex flex-col  justify-center sm:px-2 lg:items-start lg:w-2/4 mt-16 ' >
       <h1 className=' text-welcome font-bold text-sx pl-24 lg:text-2xl lg:p-11 pt-20 '>Welcome</h1>
       <p className='text-white font-display pl-2 text-sm lg:text-3xl lg:pb-20 lg:pl-4 lg:pr-20 '>Discover Culinary Elegance at Café Sunset: Where Every Sip and Bite Unveils a Symphony of Flavors and Moments.</p>
-      <p className='text-welcome text-sm pl-2 lg:text-xl lg:pl-8 lg:pr-[500px] lg:pb-5'>Gateway to Serenity, Culinary Delights,</p>
+      <p className='text-welcome text-sm pl-2 lg:text-xl lg:pl-8 lg:pr-[30vw] lg:pb-5'>Gateway to Serenity, Culinary Delights,</p>
       <p className='text-white font-display pl-2 text-sm lg:text-base lg:pl-8'>Step into a World Where Ambiance, Flavor, and<br/> Warmth Converge—A Haven Where Every Visit<br/> Feels Like Coming Home.</p>
       <button className='text-white text-sm lg:text-2xl rounded-sm border-2 border-white  lg:w-48 lg:h-18 bg-transparent lg:py-2 ml-2 px-2 text-center  tracking-wider hover:bg-black lg:mt-20 lg:ml-8'>Order Now</button>
     </div>
     {/* wel right */}
-    <div className="lg:flex w-full flex lg:w-2/4">
+    <div className="lg:flex w-full flex xs:mx-6 sm:mx-9 lg:w-2/4">
      <div className="slider-container w-[300px] lg:w-[750px]  lg:mt-24 p-6">
      <div className="border-white border-b-2 p-1 mb-1 w-fit text-white flex  justify-center">We Are Known for:-</div>
       <Slider {...settings} className="">
