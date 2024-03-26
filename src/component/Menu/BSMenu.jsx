@@ -40,8 +40,12 @@ const BSMenu = () => {
           <Link to='/starters'>
           <p className="px-1 lg:px-10">STARTERS</p>
           </Link>
+          <Link to='/sides'> 
           <p className="px-2 lg:px-10">SIDES</p>
+          </Link>
+          <Link to='/salads'>
           <p className="px-1 lg:px-10 ic ">SALADS</p>
+          </Link>
           <Link to="/chiense">
             <p className="py-1 text-xs lg:text-3xl">
               <FaArrowRight />
