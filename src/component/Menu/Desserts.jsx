@@ -188,7 +188,69 @@ const Desserts = () =>{
               </div>
               </div>
           </div>
-       
+          <div className="flex mt-12">
+              <div className="text-white xs:text-xs md:text-xl lg:text-xl font-semibold ml-4 w-80  md:mr-36 tracking-widest" >
+               STRAWBERRY SWIRL
+              <p className="text-yellow-300 font-bold">139/-</p>
+              </div>
+              <div className="place-content-center xs:w-10 xs:h-5 sm:w-8 sm:h-6 md:h-8 lg:w-10 lg:h-8 bg-slate-300 border-green-500 border-2  mt-2 lg:mr-8 mx-2 rounded-lg hid">
+                  <p className="text-5xl font-extrabold text-green-500 xs:mt-[-180%] md:mt-[-100%] sm:mt-[-140%] lg:mt-[-24px] text-center">
+                    .
+                  </p>
+                </div>
+                <div >
+                <p className=" bg-slate-300 px-1 py-2 rounded-full text-center mt-1 ic">- 1 +</p>
+              </div>
+              <div className=" bg-red-400  text-center  w-24 h-12 py-2 mx-1 rounded-lg ic"><p className="text-2xl text-white font-bold ">ADD +</p></div>
+              <div className="mr-4 hid ">
+              <img src={Burger1} className="w-20 h-14 xs:w-18 xs:h-12 mr-4 "/>
+              <div className="bg-slate-100 w-10 h-4 ml-4 text-xs mt-[-4%]  xs:mr-4 rounded-lg ">
+              <p className=" bg-shadow text-center">- 1 +</p>
+              </div>
+              </div>
+          </div>
+          <div className="flex mt-12">
+              <div className="text-white xs:text-xs md:text-xl lg:text-xl font-semibold ml-4 w-80  md:mr-36 tracking-widest" >
+               BANANA SPLIT
+              <p className="text-yellow-300 font-bold">149/-</p>
+              </div>
+              <div className="place-content-center xs:w-10 xs:h-5 sm:w-8 sm:h-6 md:h-8 lg:w-10 lg:h-8 bg-slate-300 border-green-500 border-2  mt-2 lg:mr-8 mx-2 rounded-lg hid">
+                  <p className="text-5xl font-extrabold text-green-500 xs:mt-[-180%] md:mt-[-100%] sm:mt-[-140%] lg:mt-[-24px] text-center">
+                    .
+                  </p>
+                </div>
+                <div >
+                <p className=" bg-slate-300 px-1 py-2 rounded-full text-center mt-1 ic">- 1 +</p>
+              </div>
+              <div className=" bg-red-400  text-center  w-24 h-12 py-2 mx-1 rounded-lg ic"><p className="text-2xl text-white font-bold ">ADD +</p></div>
+              <div className="mr-4 hid ">
+              <img src={Burger1} className="w-20 h-14 xs:w-18 xs:h-12 mr-4 "/>
+              <div className="bg-slate-100 w-10 h-4 ml-4 text-xs mt-[-4%]  xs:mr-4 rounded-lg ">
+              <p className=" bg-shadow text-center">- 1 +</p>
+              </div>
+              </div>
+          </div>
+          <div className="flex mt-12">
+              <div className="text-white xs:text-xs md:text-xl lg:text-xl font-semibold ml-4 w-80  md:mr-36 tracking-widest" >
+               CARAMEL CRUNCH SUNDAE
+              <p className="text-yellow-300 font-bold">139/-</p>
+              </div>
+              <div className="place-content-center xs:w-10 xs:h-5 sm:w-8 sm:h-6 md:h-8 lg:w-10 lg:h-8 bg-slate-300 border-green-500 border-2  mt-2 lg:mr-8 mx-2 rounded-lg hid">
+                  <p className="text-5xl font-extrabold text-green-500 xs:mt-[-180%] md:mt-[-100%] sm:mt-[-140%] lg:mt-[-24px] text-center">
+                    .
+                  </p>
+                </div>
+                <div >
+                <p className=" bg-slate-300 px-1 py-2 rounded-full text-center mt-1 ic">- 1 +</p>
+              </div>
+              <div className=" bg-red-400  text-center  w-24 h-12 py-2 mx-1 rounded-lg ic"><p className="text-2xl text-white font-bold ">ADD +</p></div>
+              <div className="mr-4 hid ">
+              <img src={Burger1} className="w-20 h-14 xs:w-18 xs:h-12 mr-4 "/>
+              <div className="bg-slate-100 w-10 h-4 ml-4 text-xs mt-[-4%]  xs:mr-4 rounded-lg ">
+              <p className=" bg-shadow text-center">- 1 +</p>
+              </div>
+              </div>
+          </div>
           </div>
           </div>
           
