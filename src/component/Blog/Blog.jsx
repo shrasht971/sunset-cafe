@@ -32,6 +32,9 @@ const Blog = () => {
                 <div className="text-center text-latestheading text-3xl font-semibold py-4 border-b border-amber-700" >
                   {x.carouselheading}
                 </div>
+                <div className="text-center text-latestheading text-3xl font-semibold py-4 border-b border-amber-700">
+                {x.reviewheading}
+                </div>
               </div>
             );
           })}

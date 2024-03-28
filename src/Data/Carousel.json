@@ -1,0 +1,15 @@
+{
+    "carousel1": [
+      {"id": 1, 
+      "image": "image1.jpg", 
+      "caption": "Sip, Savor, Socialize: The Three S's of Café Sunset. Found out More."
+    },
+      {"id": 2, "image": "image2.jpg", "caption": "Carousel 1 Image 2"},
+      {"id": 3, "image": "image3.jpg", "caption": "Carousel 1 Image 3"}
+    ],
+    "carousel2": [
+      {"id": 1, "image": "image4.jpg", "caption": "Carousel 2 Image 1"},
+      {"id": 2, "image": "image5.jpg", "caption": "Carousel 2 Image 2"},
+      {"id": 3, "image": "image6.jpg", "caption": "Carousel 2 Image 3"}
+    ]
+  }
