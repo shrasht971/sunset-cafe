@@ -13,6 +13,21 @@
 .slick-slide >div{
     margin:0 10px;
 }
+#para{
+    position:absolute;
+    top:30%;
+}
+#para1{
+    position:absolute;
+    top:40%;
+}
+#con{
+    margin-left:-20px;
+}
+#round{
+    border-radius:18px;
+      
+}
 
 .res{
     display: flex;

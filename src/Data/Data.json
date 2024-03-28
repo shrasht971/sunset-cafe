@@ -1,0 +1,15 @@
+[
+    {
+        "id":1,
+        "blog":"blog",
+        "img":"/src/assets/image/blogmain.jpeg",
+        "vision":"OUR VISION",
+        "visiontext":"To create a haven where every cup is a canvas, painting moments of serenity and connection against the backdrop of a setting sun.",
+        "carouselheading":"LATEST BLOG POST",
+        "review heading":"FEATURED REVIEW VIDEOS",
+        "share":"Share Your Experience !",
+        "content1":"Have you recently visited Café Sunset? We'd love to hear about your experience!",
+        "content2":"Send your reviews and feedback and who knows – your review might be featured here next!",
+        "review content":"Leave You Review Here...."
+    }
+]

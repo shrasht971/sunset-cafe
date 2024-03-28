@@ -1,5 +1,5 @@
 import React from 'react'
-import Desserts1 from '../../assets/image/desertspic.jpeg'
+import Maincourse from '../../assets/image/maincourse.jpeg'
 import Burger1 from '../../assets/image/burger1.png'
 import { Link } from "react-router-dom"
 import { FaArrowRight } from "react-icons/fa";
@@ -9,7 +9,7 @@ const MainCourse = () => {
     <div className='h-fit pb-40 bg-menu1'>
         <div className='w-full relative top-32'>
         <div className='container w-full'>
-          <img src={Desserts1} className='lg:h-[70vh] h-[40vh] w-full px-2 object-cover bg-no-repeat' />
+          <img src={Maincourse} className='lg:h-[70vh] h-[40vh] w-full px-2 object-cover bg-no-repeat' />
         </div>
         <div className="flex text-white xs:text-[2.7vw] xs:fontbold text-xs font-extralight md:text-xl md:font-semibold lg:text-3xl lg:font-semibold mt-4 mx-1 lg:tracking-widest w-full">
           <Link to='/desserts'>

@@ -111,7 +111,7 @@ const Menu1 = () => {
             </p>
           </div>
           </Link>
-          <Link to='/vaalueCombo'>
+          <Link to='/valueCombo'>
           <div className="lg:mx-28 lg:my-16 ">
             <img src={Combo} className="lg:w-52 w-20 lg:h-52 h-20 rounded-full" />
             <p className="lg:text-2xl text-xs  text-white font-semibold pr-8 text-center  mt-2">

@@ -14,6 +14,7 @@ import Salads from './component/Menu/Salads'
 import Desserts from './component/Menu/Desserts'
 import MainCourse from './component/Menu/MainCourse'
 import ValueCombo from './component/Menu/ValueCombo'
+import Blog from './component/Blog/Blog'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Outlet } from 'react-router-dom'
 import { useMediaQuery } from "react-responsive";
@@ -42,6 +43,7 @@ function App() {
       <Route path='desserts' element={<Desserts />} />
       <Route path='mainCourse' element={<MainCourse />}/>
       <Route path='valueCombo' element={<ValueCombo />}/>
+      <Route path='Blog' element={<Blog />}/>
     </Routes>
     
     {isDesktopOrLaptop && <Footer />}
