@@ -1,0 +1,55 @@
+{
+    "carousel1": [
+    {
+        "id": 1, 
+      "image": "/src/assets/image/blogPost.jpeg", 
+      "caption": "Sip, Savor, Socialize: The Three S's of Café Sunset. Found out More."
+    },
+    {
+      "id": 2, 
+      "image": "/src/assets/image/blogPost1.jpeg",
+      "caption": "Café Sunset Chronicles: A Journey Through Flavors and Moments. Found out More."
+    },
+    {
+      "id": 3, 
+      "image": "/src/assets/image/blogPost2.jpeg", 
+      "caption": "Sunset Sessions: Live Music, Lively Conversations at Café Sunset. Found out More."
+    },
+    {
+    "id": 4, 
+    "image": "/src/assets/image/blogPost3.jpeg", 
+    "caption": "Sipping Serenity: The Art of Sunset at Café Sunset."
+    },
+    {
+    "id": 5, 
+    "image": "/src/assets/image/blogPost4.jpeg", 
+    "caption": "Bites of Bliss: The Sweet Symphony of Pastries at Café Sunset. Found out More."
+    },
+    {
+    "id": 6, 
+    "image": "/src/assets/image/blogPost5.jpeg", 
+    "caption": "Flavorful Escapes: Exploring Café Sunset's Seasonal Specialties. Found out More."
+    }
+    ],
+    "carousel2": [
+      {"id": 1, 
+      "image": "/src/assets/image/review1.jpeg", 
+      "caption": "Café Sunset is a hidden gem! The flavors are absolutely exquisite, and the cozy atmosphere makes it the perfect spot for a quiet coffee or a lively gathering. The Sunset Chai is a must-try! Can't wait to visit again. - Divya Soni."
+    },
+    {
+      "id": 2, 
+      "image": "/src/assets/image/review2.jpeg", 
+      "caption": "The staff at Café Sunset goes above and beyond to make you feel at home. The artistic vibes, from the décor to the live performances, create a unique and memorable experience. Highly recommended! - Sanowar Khatun."
+    },
+      {
+      "id": 3, 
+      "image": "/src/assets/image/review.jpeg", 
+      "caption": "Its Was Very Delicious."
+    },
+    {
+        "id": 4, 
+        "image": "/src/assets/image/review4.jpeg", 
+        "caption": "The simplicity of the dishes lets the quality of the noodles shine through. A must-visit for any noodle lover! - Ayusha. 3"
+      }
+    ]
+  }
